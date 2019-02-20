@@ -7,10 +7,10 @@ from time import sleep
 mouse = ms.Controller()
 keyboard = kb.Controller()
 
-NL = (1306, 263)
-LU = (485, 448)
-bg = (1245, 596)
-noc = 0
+NL = (1306, 263) #Next Level
+LU = (485, 448)  #Level Up
+bg = (1245, 596) #bad guy
+noc = 0 #Number of clicks
 
 mouse.position = bg
 
